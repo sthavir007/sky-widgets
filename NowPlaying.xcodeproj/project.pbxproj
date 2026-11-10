@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004196284BC02EF137F91055 /* Desk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02BE4C1607492A6825D05F /* Desk.swift */; };
+		08A0008993551BA2074B6004 /* DeskWidgets.swift.bak-clock6 in Resources */ = {isa = PBXBuildFile; fileRef = DA22D437EC837D725CA0FD9A /* DeskWidgets.swift.bak-clock6 */; };
+		23E36620F2D649A7EE3CDC81 /* NowPlayingWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7C33FE531CB5618610066D1E /* NowPlayingWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2BE83C366BF8A17D791394F2 /* Desk.swift.bak-20261014 in Resources */ = {isa = PBXBuildFile; fileRef = 212F7B15E06D034A14C20A7D /* Desk.swift.bak-20261014 */; };
+		2E0D79E48B4D4DB75CA6F483 /* DeskWidgets.swift.bak-clock10 in Resources */ = {isa = PBXBuildFile; fileRef = 9FD38D41831002E5C6637750 /* DeskWidgets.swift.bak-clock10 */; };
+		31BBF0A5AD58880E107CED23 /* DeskWidgets.swift.bak-17 in Resources */ = {isa = PBXBuildFile; fileRef = 91DB0F8B46639739194F2D55 /* DeskWidgets.swift.bak-17 */; };
+		4440474F50F266050144FEC9 /* main.swift.bak-20261014 in Resources */ = {isa = PBXBuildFile; fileRef = 020DE5F294C3A7EECD9396FD /* main.swift.bak-20261014 */; };
+		4BA55999AF02D4699BA4A307 /* DeskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E255281DF79529325F6263F3 /* DeskData.swift */; };
+		512D4CDAC993E40796434893 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003B3B5BEA20E0E5AEF22B8 /* State.swift */; };
+		55B3CB79DF5A54F4DF241646 /* DeskWidgets.swift.bak-20261020 in Resources */ = {isa = PBXBuildFile; fileRef = AD717922810E6AE2502F5598 /* DeskWidgets.swift.bak-20261020 */; };
+		628C63275EEB11859F793C33 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003B3B5BEA20E0E5AEF22B8 /* State.swift */; };
+		65D6B894C27EBCE8381D6587 /* DeskData.swift.bak-20261014 in Resources */ = {isa = PBXBuildFile; fileRef = 3273FCF2C344169E2DE8851E /* DeskData.swift.bak-20261014 */; };
+		700B68118569AEF7D2ACF4BE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A11DCEB3E667DD9D38DD4 /* Theme.swift */; };
+		805ECAEBD4B33D3852B7B42B /* NowPlayingWidget.swift.bak-20261014 in Resources */ = {isa = PBXBuildFile; fileRef = D1B6AA3341A2E5734457E2F7 /* NowPlayingWidget.swift.bak-20261014 */; };
+		8A2A085E93A92A6A98CE93D2 /* Theme.swift.bak-20261014 in Resources */ = {isa = PBXBuildFile; fileRef = 560437A6A049828912849FBF /* Theme.swift.bak-20261014 */; };
+		8F7121E95AFA6CC4C4EE3A0F /* Theme.swift.bak-dark in Resources */ = {isa = PBXBuildFile; fileRef = 638E0FABB19D2BC689C22732 /* Theme.swift.bak-dark */; };
+		8FAB131CE562637435A2B49D /* Theme.swift.bak-backdrop in Resources */ = {isa = PBXBuildFile; fileRef = 32DDC7F630A6A49D0132899E /* Theme.swift.bak-backdrop */; };
+		A33571C569060E5EF4005224 /* NowPlayingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B41E63683BD1AA32FC0747 /* NowPlayingWidget.swift */; };
+		B0375B9C203531A882DC909E /* DeskWidgets.swift.bak-clock9 in Resources */ = {isa = PBXBuildFile; fileRef = C11FAFB0BCC5E48D6D5569FC /* DeskWidgets.swift.bak-clock9 */; };
+		B767075A31197AD812C85EEA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EEDD776594C22D7155FBAB /* main.swift */; };
+		B8B13BFA2767B2871589B12C /* DeskWidgets.swift.bak-18 in Resources */ = {isa = PBXBuildFile; fileRef = D5E3935F64F12801DD1352FF /* DeskWidgets.swift.bak-18 */; };
+		BC13463C3F58256BF6549AFA /* DeskData.swift.bak-20261014 in Resources */ = {isa = PBXBuildFile; fileRef = 3273FCF2C344169E2DE8851E /* DeskData.swift.bak-20261014 */; };
+		C0D93F80A11B4EADC461547B /* DeskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E255281DF79529325F6263F3 /* DeskData.swift */; };
+		C362D1E2309A784A86BA7125 /* CalendarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8454578189F49881FCB1DF9 /* CalendarWidget.swift */; };
+		F8928FCEAF675B0EEF086AFE /* DeskWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD13A1C29A7AB5B486E5280 /* DeskWidgets.swift */; };
+		FBC53DC6B7DF7A6A2D771120 /* DeskWidgets.swift.bak-ticks in Resources */ = {isa = PBXBuildFile; fileRef = 64C6483AF7968B2FEC25AF2D /* DeskWidgets.swift.bak-ticks */; };
+		FD1788801C52699556A6F861 /* CalendarWidget.swift.bak-today in Resources */ = {isa = PBXBuildFile; fileRef = 90B566282BA890668F7017B1 /* CalendarWidget.swift.bak-today */; };
+		FDD2EB15191CEF4AD834C499 /* DeskWidgets.swift.bak-clock12 in Resources */ = {isa = PBXBuildFile; fileRef = 291C5F296D35C55AF1CD241D /* DeskWidgets.swift.bak-clock12 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3D1DD0E4242DEC9CDBBC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 382AAC770C51A21B7F9A9040 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 243F61C1DA0ADF04A6A11C00;
+			remoteInfo = NowPlayingWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		041A8AD94ECA990EF5131B8A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				23E36620F2D649A7EE3CDC81 /* NowPlayingWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		020DE5F294C3A7EECD9396FD /* main.swift.bak-20261014 */ = {isa = PBXFileReference; path = "main.swift.bak-20261014"; sourceTree = "<group>"; };
+		02EEDD776594C22D7155FBAB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0D8A11DCEB3E667DD9D38DD4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		212F7B15E06D034A14C20A7D /* Desk.swift.bak-20261014 */ = {isa = PBXFileReference; path = "Desk.swift.bak-20261014"; sourceTree = "<group>"; };
+		291C5F296D35C55AF1CD241D /* DeskWidgets.swift.bak-clock12 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-clock12"; sourceTree = "<group>"; };
+		3273FCF2C344169E2DE8851E /* DeskData.swift.bak-20261014 */ = {isa = PBXFileReference; path = "DeskData.swift.bak-20261014"; sourceTree = "<group>"; };
+		32DDC7F630A6A49D0132899E /* Theme.swift.bak-backdrop */ = {isa = PBXFileReference; path = "Theme.swift.bak-backdrop"; sourceTree = "<group>"; };
+		5003B3B5BEA20E0E5AEF22B8 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		54D988FD55CCFC5C958C7437 /* NowPlaying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowPlaying.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		560437A6A049828912849FBF /* Theme.swift.bak-20261014 */ = {isa = PBXFileReference; path = "Theme.swift.bak-20261014"; sourceTree = "<group>"; };
+		638E0FABB19D2BC689C22732 /* Theme.swift.bak-dark */ = {isa = PBXFileReference; path = "Theme.swift.bak-dark"; sourceTree = "<group>"; };
+		64C6483AF7968B2FEC25AF2D /* DeskWidgets.swift.bak-ticks */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-ticks"; sourceTree = "<group>"; };
+		6F02BE4C1607492A6825D05F /* Desk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desk.swift; sourceTree = "<group>"; };
+		7BD13A1C29A7AB5B486E5280 /* DeskWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskWidgets.swift; sourceTree = "<group>"; };
+		7C33FE531CB5618610066D1E /* NowPlayingWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NowPlayingWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B566282BA890668F7017B1 /* CalendarWidget.swift.bak-today */ = {isa = PBXFileReference; path = "CalendarWidget.swift.bak-today"; sourceTree = "<group>"; };
+		91DB0F8B46639739194F2D55 /* DeskWidgets.swift.bak-17 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-17"; sourceTree = "<group>"; };
+		9FD38D41831002E5C6637750 /* DeskWidgets.swift.bak-clock10 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-clock10"; sourceTree = "<group>"; };
+		AD717922810E6AE2502F5598 /* DeskWidgets.swift.bak-20261020 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-20261020"; sourceTree = "<group>"; };
+		B3B41E63683BD1AA32FC0747 /* NowPlayingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingWidget.swift; sourceTree = "<group>"; };
+		C11FAFB0BCC5E48D6D5569FC /* DeskWidgets.swift.bak-clock9 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-clock9"; sourceTree = "<group>"; };
+		D1B6AA3341A2E5734457E2F7 /* NowPlayingWidget.swift.bak-20261014 */ = {isa = PBXFileReference; path = "NowPlayingWidget.swift.bak-20261014"; sourceTree = "<group>"; };
+		D5E3935F64F12801DD1352FF /* DeskWidgets.swift.bak-18 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-18"; sourceTree = "<group>"; };
+		D8454578189F49881FCB1DF9 /* CalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidget.swift; sourceTree = "<group>"; };
+		DA22D437EC837D725CA0FD9A /* DeskWidgets.swift.bak-clock6 */ = {isa = PBXFileReference; path = "DeskWidgets.swift.bak-clock6"; sourceTree = "<group>"; };
+		E255281DF79529325F6263F3 /* DeskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		29A1DA56BE4558ADB5C8B8D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54D988FD55CCFC5C958C7437 /* NowPlaying.app */,
+				7C33FE531CB5618610066D1E /* NowPlayingWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		414F6466080AED932209D51E = {
+			isa = PBXGroup;
+			children = (
+				E48F302A99E6B47D7796ED10 /* Host */,
+				C5DBBAE54A555551EA876072 /* Shared */,
+				84D63A0538F487F84A01391A /* Widget */,
+				29A1DA56BE4558ADB5C8B8D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D63A0538F487F84A01391A /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				D8454578189F49881FCB1DF9 /* CalendarWidget.swift */,
+				90B566282BA890668F7017B1 /* CalendarWidget.swift.bak-today */,
+				7BD13A1C29A7AB5B486E5280 /* DeskWidgets.swift */,
+				91DB0F8B46639739194F2D55 /* DeskWidgets.swift.bak-17 */,
+				D5E3935F64F12801DD1352FF /* DeskWidgets.swift.bak-18 */,
+				AD717922810E6AE2502F5598 /* DeskWidgets.swift.bak-20261020 */,
+				DA22D437EC837D725CA0FD9A /* DeskWidgets.swift.bak-clock6 */,
+				C11FAFB0BCC5E48D6D5569FC /* DeskWidgets.swift.bak-clock9 */,
+				9FD38D41831002E5C6637750 /* DeskWidgets.swift.bak-clock10 */,
+				291C5F296D35C55AF1CD241D /* DeskWidgets.swift.bak-clock12 */,
+				64C6483AF7968B2FEC25AF2D /* DeskWidgets.swift.bak-ticks */,
+				B3B41E63683BD1AA32FC0747 /* NowPlayingWidget.swift */,
+				D1B6AA3341A2E5734457E2F7 /* NowPlayingWidget.swift.bak-20261014 */,
+				0D8A11DCEB3E667DD9D38DD4 /* Theme.swift */,
+				560437A6A049828912849FBF /* Theme.swift.bak-20261014 */,
+				32DDC7F630A6A49D0132899E /* Theme.swift.bak-backdrop */,
+				638E0FABB19D2BC689C22732 /* Theme.swift.bak-dark */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		C5DBBAE54A555551EA876072 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E255281DF79529325F6263F3 /* DeskData.swift */,
+				3273FCF2C344169E2DE8851E /* DeskData.swift.bak-20261014 */,
+				5003B3B5BEA20E0E5AEF22B8 /* State.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E48F302A99E6B47D7796ED10 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				6F02BE4C1607492A6825D05F /* Desk.swift */,
+				212F7B15E06D034A14C20A7D /* Desk.swift.bak-20261014 */,
+				02EEDD776594C22D7155FBAB /* main.swift */,
+				020DE5F294C3A7EECD9396FD /* main.swift.bak-20261014 */,
+			);
+			path = Host;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		243F61C1DA0ADF04A6A11C00 /* NowPlayingWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3582D5921EA1D6A8128F58 /* Build configuration list for PBXNativeTarget "NowPlayingWidget" */;
+			buildPhases = (
+				132D07EC9CED6267BFDCF27E /* Sources */,
+				12F9433753C0479CCC5560FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NowPlayingWidget;
+			packageProductDependencies = (
+			);
+			productName = NowPlayingWidget;
+			productReference = 7C33FE531CB5618610066D1E /* NowPlayingWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		82C6D9C790484BF62FF0A175 /* NowPlaying */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D9913B0A3749C4A02B28BC /* Build configuration list for PBXNativeTarget "NowPlaying" */;
+			buildPhases = (
+				6FCE0C6312C0F0C44178511A /* Sources */,
+				A768911EA8E40099A504DBD9 /* Resources */,
+				041A8AD94ECA990EF5131B8A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9148E79F5C7E05F31A604C3A /* PBXTargetDependency */,
+			);
+			name = NowPlaying;
+			packageProductDependencies = (
+			);
+			productName = NowPlaying;
+			productReference = 54D988FD55CCFC5C958C7437 /* NowPlaying.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		382AAC770C51A21B7F9A9040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					243F61C1DA0ADF04A6A11C00 = {
+						DevelopmentTeam = 89Y9A68Y5H;
+						ProvisioningStyle = Automatic;
+					};
+					82C6D9C790484BF62FF0A175 = {
+						DevelopmentTeam = 89Y9A68Y5H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 46BECD20715C1B8B2DCE3D4B /* Build configuration list for PBXProject "NowPlaying" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 414F6466080AED932209D51E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29A1DA56BE4558ADB5C8B8D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C6D9C790484BF62FF0A175 /* NowPlaying */,
+				243F61C1DA0ADF04A6A11C00 /* NowPlayingWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12F9433753C0479CCC5560FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1788801C52699556A6F861 /* CalendarWidget.swift.bak-today in Resources */,
+				BC13463C3F58256BF6549AFA /* DeskData.swift.bak-20261014 in Resources */,
+				31BBF0A5AD58880E107CED23 /* DeskWidgets.swift.bak-17 in Resources */,
+				B8B13BFA2767B2871589B12C /* DeskWidgets.swift.bak-18 in Resources */,
+				55B3CB79DF5A54F4DF241646 /* DeskWidgets.swift.bak-20261020 in Resources */,
+				2E0D79E48B4D4DB75CA6F483 /* DeskWidgets.swift.bak-clock10 in Resources */,
+				FDD2EB15191CEF4AD834C499 /* DeskWidgets.swift.bak-clock12 in Resources */,
+				08A0008993551BA2074B6004 /* DeskWidgets.swift.bak-clock6 in Resources */,
+				B0375B9C203531A882DC909E /* DeskWidgets.swift.bak-clock9 in Resources */,
+				FBC53DC6B7DF7A6A2D771120 /* DeskWidgets.swift.bak-ticks in Resources */,
+				805ECAEBD4B33D3852B7B42B /* NowPlayingWidget.swift.bak-20261014 in Resources */,
+				8A2A085E93A92A6A98CE93D2 /* Theme.swift.bak-20261014 in Resources */,
+				8FAB131CE562637435A2B49D /* Theme.swift.bak-backdrop in Resources */,
+				8F7121E95AFA6CC4C4EE3A0F /* Theme.swift.bak-dark in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A768911EA8E40099A504DBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83C366BF8A17D791394F2 /* Desk.swift.bak-20261014 in Resources */,
+				65D6B894C27EBCE8381D6587 /* DeskData.swift.bak-20261014 in Resources */,
+				4440474F50F266050144FEC9 /* main.swift.bak-20261014 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132D07EC9CED6267BFDCF27E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C362D1E2309A784A86BA7125 /* CalendarWidget.swift in Sources */,
+				C0D93F80A11B4EADC461547B /* DeskData.swift in Sources */,
+				F8928FCEAF675B0EEF086AFE /* DeskWidgets.swift in Sources */,
+				A33571C569060E5EF4005224 /* NowPlayingWidget.swift in Sources */,
+				628C63275EEB11859F793C33 /* State.swift in Sources */,
+				700B68118569AEF7D2ACF4BE /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCE0C6312C0F0C44178511A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004196284BC02EF137F91055 /* Desk.swift in Sources */,
+				4BA55999AF02D4699BA4A307 /* DeskData.swift in Sources */,
+				512D4CDAC993E40796434893 /* State.swift in Sources */,
+				B767075A31197AD812C85EEA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9148E79F5C7E05F31A604C3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 243F61C1DA0ADF04A6A11C00 /* NowPlayingWidget */;
+			targetProxy = AE3D1DD0E4242DEC9CDBBC01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BC4042800AD444E92437287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 19;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 89Y9A68Y5H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 3.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4EBD40788314DB81EE122ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Generated/Widget.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Generated/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sthavir.nowplaying.widget;
+				PRODUCT_NAME = NowPlayingWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92273204C11BCA4B377260DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 19;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 89Y9A68Y5H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 3.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D29564575F4B46F8F47AD99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = "Generated/Host-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sthavir.nowplaying;
+				PRODUCT_NAME = "Now Playing";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC70776979DBA7A528267304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = "Generated/Host-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sthavir.nowplaying;
+				PRODUCT_NAME = "Now Playing";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA96EBFF27994BF1FD3C3DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Generated/Widget.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Generated/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sthavir.nowplaying.widget;
+				PRODUCT_NAME = NowPlayingWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D9913B0A3749C4A02B28BC /* Build configuration list for PBXNativeTarget "NowPlaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC70776979DBA7A528267304 /* Debug */,
+				D29564575F4B46F8F47AD99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46BECD20715C1B8B2DCE3D4B /* Build configuration list for PBXProject "NowPlaying" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC4042800AD444E92437287 /* Debug */,
+				92273204C11BCA4B377260DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D3582D5921EA1D6A8128F58 /* Build configuration list for PBXNativeTarget "NowPlayingWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EBD40788314DB81EE122ECA /* Debug */,
+				EA96EBFF27994BF1FD3C3DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 382AAC770C51A21B7F9A9040 /* Project object */;
+}

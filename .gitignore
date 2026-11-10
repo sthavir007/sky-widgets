@@ -1,0 +1,8 @@
+.build/
+.xcbuild/
+*.bak*
+*.zip
+*.dSYM
+.DS_Store
+xcuserdata/
+*.xcuserstate

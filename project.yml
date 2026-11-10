@@ -1,0 +1,59 @@
+name: NowPlaying
+options:
+  bundleIdPrefix: com.sthavir
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    DEVELOPMENT_TEAM: 89Y9A68Y5H
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "3.0"
+    CURRENT_PROJECT_VERSION: "19"
+targets:
+  NowPlaying:
+    type: application
+    platform: macOS
+    sources: [Host, Shared]
+    info:
+      path: Generated/Host-Info.plist
+      properties:
+        CFBundleDisplayName: Sky Widgets
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSUIElement: true
+        NSAppleEventsUsageDescription: Now Playing reads the current track from Spotify and sends play, pause and skip.
+        CFBundleURLTypes:
+          - CFBundleURLName: com.sthavir.nowplaying
+            CFBundleURLSchemes: [nowplaying]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sthavir.nowplaying
+        PRODUCT_NAME: Now Playing
+        ENABLE_HARDENED_RUNTIME: NO
+    dependencies:
+      - target: NowPlayingWidget
+        embed: true
+  NowPlayingWidget:
+    type: app-extension
+    platform: macOS
+    sources: [Widget, Shared]
+    info:
+      path: Generated/Widget-Info.plist
+      properties:
+        CFBundleDisplayName: Sky Widgets
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: Generated/Widget.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.temporary-exception.files.home-relative-path.read-only:
+          - /Library/Application Support/NowPlaying/
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sthavir.nowplaying.widget
+        PRODUCT_NAME: NowPlayingWidget
+        SKIP_INSTALL: YES
